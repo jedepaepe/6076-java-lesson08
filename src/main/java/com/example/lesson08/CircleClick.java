@@ -22,6 +22,12 @@ public class CircleClick extends Application {
         stage.show();
     }
 
+    /**
+     * dessine un cercle de couleur AQUA et de 30px de diamètre dont le centre est positionné
+     * sur la souris
+     * @param gc est le context graphique
+     * @param event est l'événement MouseEvent
+     */
     private void drawCircle(GraphicsContext gc, MouseEvent event) {
         gc.setFill(Color.AQUA);
         gc.fillOval(event.getX() + 15, event.getY() + 15, 30, 30);

@@ -28,6 +28,14 @@ public class ExColorRGBFor extends Application {
         stage.show();
     }
 
+    /**
+     * dessine un cercle
+     * @param gc est le context graphique
+     * @param color est la couleur de remplissage du cercle
+     * @param x est l'absisse du sommet supérieur gauche du rectangle qui contient le cercle
+     * @param y est l'ordonnée du sommet supérieur gauche du rectangle qui contient le cercle
+     * @param radius est le rayon du cercle
+     */
     private void fillCircle(GraphicsContext gc, Color color, double x, double y, double radius) {
         gc.setFill(color);
         gc.fillOval(x, y, radius, radius);

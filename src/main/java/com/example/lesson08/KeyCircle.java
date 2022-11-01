@@ -27,6 +27,11 @@ public class KeyCircle extends Application {
         stage.show();
     }
 
+    /**
+     * dessine un cercle de 30px de diamètre positionné au hazard sur le canvas
+     * @param canvas le canvas sur lequel le cercle doit être dessiné
+     * @param color la couleur de remplissage du cercle
+     */
     private void drawCircle(Canvas canvas, Color color) {
         GraphicsContext gc = canvas.getGraphicsContext2D();
         gc.setFill(color);
