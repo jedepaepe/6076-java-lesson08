@@ -8,6 +8,7 @@ public class ExMaximumDouble {
             b = Double.parseDouble(args[1]);
         }
         else {
+            // pour faciliter le test (pas besoin d'aller dans configuration ...)
             a = 16.3;
             b = 19.2;
         }

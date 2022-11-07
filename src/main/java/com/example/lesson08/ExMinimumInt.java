@@ -8,6 +8,7 @@ public class ExMinimumInt {
             b = Double.parseDouble(args[1]);
         }
         else {
+            // pour faciliter le test
             a = 16.3;
             b = 19.2;
         }
