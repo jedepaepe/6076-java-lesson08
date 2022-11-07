@@ -1,6 +1,6 @@
 package com.example.lesson08;
 
-public class ExMinimumInt {
+public class ExMinimumDouble {
     public static void main(String[] args) {
         double a, b;
         if (args.length == 2) {
